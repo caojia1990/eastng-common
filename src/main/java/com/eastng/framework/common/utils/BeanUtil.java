@@ -24,9 +24,9 @@ public class BeanUtil extends BeanUtils{
             for (PropertyDescriptor property : propertyDescriptors) {  
                 String key = property.getName();  
   
-                // ¹ıÂËclassÊôĞÔ  
+                // è¿‡æ»¤classå±æ€§  
                 if (!key.equals("class")) {  
-                    // µÃµ½property¶ÔÓ¦µÄgetter·½·¨  
+                    // å¾—åˆ°propertyå¯¹åº”çš„getteræ–¹æ³•  
                     Method getter = property.getReadMethod();  
                     Object value = getter.invoke(obj);  
   
@@ -41,7 +41,7 @@ public class BeanUtil extends BeanUtils{
     }
     
     /**
-     * ¸´ÖÆList
+     * å¤åˆ¶List
      * @param <T>
      * @param fromObjList
      * @param toObjClazz
