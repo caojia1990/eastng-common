@@ -32,7 +32,6 @@ public class BeanUtil extends BeanUtils{
   
                     map.put(key, value);  
                 }  
-  
             }  
         } catch (Exception e) {  
             System.out.println("transBean2Map Error " + e);  
