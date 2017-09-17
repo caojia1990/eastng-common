@@ -1,4 +1,4 @@
-package com.eastng.framework.common.utils;
+/*package com.eastng.framework.common.utils;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
@@ -39,13 +39,13 @@ public class BeanUtil extends BeanUtils{
         return map;  
     }
     
-    /**
+    *//**
      * 复制List
      * @param <T>
      * @param fromObjList
      * @param toObjClazz
      * @return
-     */
+     *//*
     public static <T> List<T> copyList(List<?> fromObjList,Class<T> toObjClazz){
         List<T> toObjList = new ArrayList<T>(fromObjList.size());
         
@@ -65,3 +65,4 @@ public class BeanUtil extends BeanUtils{
         return toObjList;
     }
 }
+*/
